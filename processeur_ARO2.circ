@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project integrity="663c332e7d28b2db1be030fd1a03ff2aeb84c364" source="2.16.8.t" version="1.0">
+<project integrity="2ade0d44f32a1705a8c70f467a26b8edb3e13b3c" source="2.16.8.t" version="1.0">
   This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
 
   <lib desc="#Wiring" name="0">
@@ -310,8 +310,8 @@ end TCL_Generic;
       <a name="addrWidth" val="15"/>
       <a name="dataWidth" val="16"/>
       <a name="contents">addr/data: 15 16
-203e 2103 22cb 2306 46c0 1c84 8102 8901
-e016 5*46c0 18*0 4019 5*46c0
+2005 2106 2207 e00b 12*0 2008 2109 1c0a
+e00b 12*0 2009 210a 1c0a
 </a>
       <a name="label" val="InstrMemory"/>
     </comp>
@@ -961,19 +961,19 @@ e016 5*46c0 18*0 4019 5*46c0
     <wire from="(860,770)" to="(860,860)"/>
     <wire from="(980,1060)" to="(980,1080)"/>
     <wire from="(850,960)" to="(960,960)"/>
+    <wire from="(850,920)" to="(870,920)"/>
     <wire from="(850,1040)" to="(870,1040)"/>
     <wire from="(850,880)" to="(870,880)"/>
-    <wire from="(850,920)" to="(870,920)"/>
+    <wire from="(850,840)" to="(870,840)"/>
     <wire from="(890,400)" to="(910,400)"/>
+    <wire from="(1660,940)" to="(1860,940)"/>
+    <wire from="(1540,820)" to="(1550,820)"/>
     <wire from="(850,1160)" to="(870,1160)"/>
     <wire from="(850,1080)" to="(870,1080)"/>
     <wire from="(850,1120)" to="(870,1120)"/>
     <wire from="(850,1200)" to="(870,1200)"/>
     <wire from="(200,180)" to="(230,180)"/>
     <wire from="(180,680)" to="(210,680)"/>
-    <wire from="(850,840)" to="(870,840)"/>
-    <wire from="(1660,940)" to="(1860,940)"/>
-    <wire from="(1540,820)" to="(1550,820)"/>
     <wire from="(1530,860)" to="(1670,860)"/>
     <wire from="(1130,770)" to="(1130,820)"/>
     <wire from="(850,1240)" to="(1060,1240)"/>
@@ -3017,6 +3017,7 @@ e016 5*46c0 18*0 4019 5*46c0
     </comp>
     <comp lib="4" loc="(1260,940)" name="Register">
       <a name="width" val="16"/>
+      <a name="label" val="LR_addr"/>
       <a name="owner" val="elieva"/>
       <a name="date" val="06.05.20 15:33:03"/>
       <a name="version" val="2.14.8.t"/>
@@ -3222,6 +3223,7 @@ e016 5*46c0 18*0 4019 5*46c0
     </comp>
     <comp lib="4" loc="(1270,830)" name="Register">
       <a name="width" val="1"/>
+      <a name="label" val="Link_en"/>
       <a name="owner" val="elieva"/>
       <a name="date" val="06.05.20 15:33:03"/>
       <a name="version" val="2.14.8.t"/>
@@ -4292,6 +4294,7 @@ e016 5*46c0 18*0 4019 5*46c0
     <wire from="(850,260)" to="(850,270)"/>
     <wire from="(340,830)" to="(530,830)"/>
     <wire from="(460,950)" to="(460,1220)"/>
+    <wire from="(1130,950)" to="(1170,950)"/>
     <wire from="(1450,310)" to="(1490,310)"/>
     <wire from="(1450,390)" to="(1490,390)"/>
     <wire from="(710,910)" to="(770,910)"/>
@@ -4371,6 +4374,7 @@ e016 5*46c0 18*0 4019 5*46c0
     <wire from="(840,490)" to="(960,490)"/>
     <wire from="(1020,290)" to="(1020,300)"/>
     <wire from="(220,710)" to="(530,710)"/>
+    <wire from="(1130,970)" to="(1170,970)"/>
     <wire from="(1450,490)" to="(1490,490)"/>
     <wire from="(870,220)" to="(970,220)"/>
     <wire from="(860,210)" to="(860,230)"/>
@@ -4408,16 +4412,16 @@ e016 5*46c0 18*0 4019 5*46c0
     <wire from="(1200,1030)" to="(1270,1030)"/>
     <wire from="(1200,1110)" to="(1270,1110)"/>
     <wire from="(460,50)" to="(480,50)"/>
-    <wire from="(460,370)" to="(480,370)"/>
-    <wire from="(460,450)" to="(480,450)"/>
-    <wire from="(460,130)" to="(480,130)"/>
+    <wire from="(460,210)" to="(480,210)"/>
+    <wire from="(460,290)" to="(480,290)"/>
     <wire from="(190,1240)" to="(470,1240)"/>
+    <wire from="(460,130)" to="(480,130)"/>
+    <wire from="(460,530)" to="(480,530)"/>
     <wire from="(460,610)" to="(480,610)"/>
     <wire from="(880,290)" to="(970,290)"/>
     <wire from="(880,210)" to="(970,210)"/>
-    <wire from="(460,530)" to="(480,530)"/>
-    <wire from="(460,210)" to="(480,210)"/>
-    <wire from="(460,290)" to="(480,290)"/>
+    <wire from="(460,370)" to="(480,370)"/>
+    <wire from="(460,450)" to="(480,450)"/>
     <wire from="(250,740)" to="(530,740)"/>
     <wire from="(190,1100)" to="(400,1100)"/>
     <wire from="(710,1000)" to="(800,1000)"/>
@@ -5252,14 +5256,6 @@ e016 5*46c0 18*0 4019 5*46c0
     <comp lib="0" loc="(1270,960)" name="Tunnel">
       <a name="label" val="instr_control_s"/>
     </comp>
-    <comp lib="0" loc="(1200,960)" name="Constant"/>
-    <comp lib="0" loc="(1200,1030)" name="Constant"/>
-    <comp lib="0" loc="(1200,1110)" name="Constant"/>
-    <comp lib="0" loc="(1200,1170)" name="Constant"/>
-    <comp lib="8" loc="(1291,914)" name="Text">
-      <a name="text" val="A compléter"/>
-      <a name="font" val="SansSerif plain 12"/>
-    </comp>
     <comp lib="0" loc="(1490,460)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -5379,6 +5375,29 @@ e016 5*46c0 18*0 4019 5*46c0
       <a name="width" val="2"/>
       <a name="label" val="sel_op_mem_forward_s"/>
     </comp>
+    <comp lib="8" loc="(1291,914)" name="Text">
+      <a name="text" val="A compléter"/>
+      <a name="font" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="0" loc="(1200,1170)" name="Constant"/>
+    <comp lib="0" loc="(1200,1110)" name="Constant"/>
+    <comp lib="0" loc="(1200,1030)" name="Constant"/>
+    <comp lib="1" loc="(1200,960)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="owner" val="bdy_tve"/>
+      <a name="date" val="22.05.22 22:43:50"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="81864558-f806-4ae2-9e75-0ac315510591"/>
+      <a name="integrity" val="89395be14c071a12a36534951d39aa1eef6e5f26"/>
+    </comp>
+    <comp lib="0" loc="(1130,950)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="decode_en_s"/>
+    </comp>
+    <comp lib="0" loc="(1130,970)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="sel_PC_s"/>
+    </comp>
     <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
       <a name="text" val="Attention, votre version de Logisim"/>
       <a name="font" val="SansSerif plain 48"/>
@@ -5461,14 +5480,14 @@ e016 5*46c0 18*0 4019 5*46c0
     <wire from="(910,280)" to="(970,280)"/>
     <wire from="(570,340)" to="(630,340)"/>
     <wire from="(300,330)" to="(340,330)"/>
-    <wire from="(1330,270)" to="(1340,270)"/>
-    <wire from="(1330,110)" to="(1340,110)"/>
+    <wire from="(1330,430)" to="(1340,430)"/>
     <wire from="(1330,350)" to="(1340,350)"/>
     <wire from="(1330,510)" to="(1340,510)"/>
-    <wire from="(1330,670)" to="(1340,670)"/>
     <wire from="(1330,590)" to="(1340,590)"/>
+    <wire from="(1330,670)" to="(1340,670)"/>
     <wire from="(1330,190)" to="(1340,190)"/>
-    <wire from="(1330,430)" to="(1340,430)"/>
+    <wire from="(1330,110)" to="(1340,110)"/>
+    <wire from="(1330,270)" to="(1340,270)"/>
     <wire from="(910,50)" to="(910,90)"/>
     <wire from="(310,350)" to="(340,350)"/>
     <wire from="(310,430)" to="(340,430)"/>
@@ -5511,13 +5530,13 @@ e016 5*46c0 18*0 4019 5*46c0
     <wire from="(910,180)" to="(910,230)"/>
     <wire from="(570,440)" to="(630,440)"/>
     <wire from="(570,50)" to="(570,90)"/>
-    <wire from="(1330,370)" to="(1340,370)"/>
     <wire from="(1330,290)" to="(1340,290)"/>
-    <wire from="(1330,530)" to="(1340,530)"/>
+    <wire from="(1330,130)" to="(1340,130)"/>
+    <wire from="(1330,370)" to="(1340,370)"/>
     <wire from="(1330,450)" to="(1340,450)"/>
+    <wire from="(1330,530)" to="(1340,530)"/>
     <wire from="(1330,610)" to="(1340,610)"/>
     <wire from="(1330,210)" to="(1340,210)"/>
-    <wire from="(1330,130)" to="(1340,130)"/>
     <wire from="(310,530)" to="(340,530)"/>
     <wire from="(310,450)" to="(340,450)"/>
     <wire from="(1060,180)" to="(1070,180)"/>
@@ -5563,14 +5582,14 @@ e016 5*46c0 18*0 4019 5*46c0
     <wire from="(1070,90)" to="(1070,100)"/>
     <wire from="(220,50)" to="(260,50)"/>
     <wire from="(300,130)" to="(340,130)"/>
-    <wire from="(1330,310)" to="(1340,310)"/>
     <wire from="(1330,390)" to="(1340,390)"/>
-    <wire from="(1330,70)" to="(1340,70)"/>
-    <wire from="(1330,630)" to="(1340,630)"/>
-    <wire from="(1330,550)" to="(1340,550)"/>
-    <wire from="(1330,230)" to="(1340,230)"/>
-    <wire from="(1330,150)" to="(1340,150)"/>
+    <wire from="(1330,310)" to="(1340,310)"/>
     <wire from="(1330,470)" to="(1340,470)"/>
+    <wire from="(1330,550)" to="(1340,550)"/>
+    <wire from="(1330,630)" to="(1340,630)"/>
+    <wire from="(1330,150)" to="(1340,150)"/>
+    <wire from="(1330,70)" to="(1340,70)"/>
+    <wire from="(1330,230)" to="(1340,230)"/>
     <wire from="(910,90)" to="(910,130)"/>
     <wire from="(310,150)" to="(340,150)"/>
     <wire from="(310,550)" to="(340,550)"/>
@@ -10432,8 +10451,16 @@ e016 5*46c0 18*0 4019 5*46c0
     <wire from="(630,80)" to="(630,100)"/>
     <wire from="(590,220)" to="(590,240)"/>
     <wire from="(580,710)" to="(580,730)"/>
-    <wire from="(220,290)" to="(250,290)"/>
     <wire from="(220,410)" to="(250,410)"/>
+    <wire from="(220,290)" to="(250,290)"/>
+    <wire from="(220,310)" to="(250,310)"/>
+    <wire from="(220,330)" to="(250,330)"/>
+    <wire from="(220,350)" to="(250,350)"/>
+    <wire from="(220,370)" to="(250,370)"/>
+    <wire from="(220,390)" to="(250,390)"/>
+    <wire from="(220,270)" to="(250,270)"/>
+    <wire from="(220,230)" to="(250,230)"/>
+    <wire from="(220,250)" to="(250,250)"/>
     <wire from="(220,430)" to="(250,430)"/>
     <wire from="(220,450)" to="(250,450)"/>
     <wire from="(220,470)" to="(250,470)"/>
@@ -10444,14 +10471,6 @@ e016 5*46c0 18*0 4019 5*46c0
     <wire from="(220,170)" to="(250,170)"/>
     <wire from="(220,150)" to="(250,150)"/>
     <wire from="(220,130)" to="(250,130)"/>
-    <wire from="(220,230)" to="(250,230)"/>
-    <wire from="(220,250)" to="(250,250)"/>
-    <wire from="(220,270)" to="(250,270)"/>
-    <wire from="(220,310)" to="(250,310)"/>
-    <wire from="(220,330)" to="(250,330)"/>
-    <wire from="(220,350)" to="(250,350)"/>
-    <wire from="(220,370)" to="(250,370)"/>
-    <wire from="(220,390)" to="(250,390)"/>
     <wire from="(1250,220)" to="(1260,220)"/>
     <wire from="(1250,280)" to="(1260,280)"/>
     <wire from="(1250,160)" to="(1260,160)"/>
@@ -13281,6 +13300,7 @@ e016 5*46c0 18*0 4019 5*46c0
     </comp>
     <comp lib="4" loc="(1540,40)" name="Register">
       <a name="width" val="16"/>
+      <a name="label" val="dataOut"/>
       <a name="owner" val="elieva"/>
       <a name="date" val="06.05.20 16:33:43"/>
       <a name="version" val="2.14.8.t"/>
@@ -13289,6 +13309,7 @@ e016 5*46c0 18*0 4019 5*46c0
     </comp>
     <comp lib="4" loc="(1550,350)" name="Register">
       <a name="width" val="3"/>
+      <a name="label" val="AdrRegDest"/>
       <a name="owner" val="elieva"/>
       <a name="date" val="06.05.20 16:33:43"/>
       <a name="version" val="2.14.8.t"/>
@@ -13577,6 +13598,7 @@ e016 5*46c0 18*0 4019 5*46c0
     </comp>
     <comp lib="4" loc="(1560,1100)" name="Register">
       <a name="width" val="16"/>
+      <a name="label" val="LrAdrOut"/>
       <a name="owner" val="elieva"/>
       <a name="date" val="06.05.20 16:33:43"/>
       <a name="version" val="2.14.8.t"/>
@@ -16282,6 +16304,7 @@ e016 5*46c0 18*0 4019 5*46c0
     </comp>
     <comp lib="4" loc="(1390,670)" name="Register">
       <a name="width" val="1"/>
+      <a name="label" val="LinkEnOut"/>
       <a name="owner" val="elieva"/>
       <a name="date" val="06.05.20 17:12:42"/>
       <a name="version" val="2.14.8.t"/>
@@ -16301,6 +16324,7 @@ e016 5*46c0 18*0 4019 5*46c0
     </comp>
     <comp lib="4" loc="(1390,450)" name="Register">
       <a name="width" val="3"/>
+      <a name="label" val="AdrRegDest"/>
       <a name="owner" val="elieva"/>
       <a name="date" val="06.05.20 17:12:42"/>
       <a name="version" val="2.14.8.t"/>
@@ -16411,6 +16435,7 @@ e016 5*46c0 18*0 4019 5*46c0
     </comp>
     <comp lib="4" loc="(1390,790)" name="Register">
       <a name="width" val="16"/>
+      <a name="label" val="LrAdrOut"/>
       <a name="owner" val="elieva"/>
       <a name="date" val="06.05.20 17:12:42"/>
       <a name="version" val="2.14.8.t"/>
@@ -16515,6 +16540,7 @@ e016 5*46c0 18*0 4019 5*46c0
     </comp>
     <comp lib="4" loc="(1390,920)" name="Register">
       <a name="width" val="1"/>
+      <a name="label" val="BranchOut"/>
       <a name="owner" val="elieva"/>
       <a name="date" val="06.05.20 17:12:42"/>
       <a name="version" val="2.14.8.t"/>
@@ -17209,11 +17235,33 @@ e016 5*46c0 18*0 4019 5*46c0
     <a name="clabelfont" val="SansSerif bold 12"/>
     <a name="circuitnamedbox" val="true"/>
     <a name="circuitvhdlpath" val=""/>
-    <wire from="(830,180)" to="(870,180)"/>
-    <wire from="(540,70)" to="(600,70)"/>
+    <wire from="(430,130)" to="(430,150)"/>
+    <wire from="(410,170)" to="(440,170)"/>
+    <wire from="(410,260)" to="(430,260)"/>
+    <wire from="(430,150)" to="(440,150)"/>
+    <wire from="(410,150)" to="(420,150)"/>
+    <wire from="(360,120)" to="(370,120)"/>
+    <wire from="(360,140)" to="(370,140)"/>
+    <wire from="(560,260)" to="(570,260)"/>
+    <wire from="(630,230)" to="(640,230)"/>
+    <wire from="(420,150)" to="(420,160)"/>
+    <wire from="(430,180)" to="(430,190)"/>
+    <wire from="(560,220)" to="(600,220)"/>
+    <wire from="(560,240)" to="(600,240)"/>
+    <wire from="(430,240)" to="(430,260)"/>
+    <wire from="(430,220)" to="(430,240)"/>
+    <wire from="(400,130)" to="(430,130)"/>
+    <wire from="(670,230)" to="(690,230)"/>
+    <wire from="(420,160)" to="(440,160)"/>
     <wire from="(150,170)" to="(170,170)"/>
     <wire from="(150,210)" to="(170,210)"/>
     <wire from="(150,130)" to="(170,130)"/>
+    <wire from="(430,180)" to="(440,180)"/>
+    <wire from="(420,190)" to="(430,190)"/>
+    <wire from="(430,240)" to="(440,240)"/>
+    <wire from="(430,260)" to="(440,260)"/>
+    <wire from="(430,220)" to="(440,220)"/>
+    <wire from="(370,210)" to="(440,210)"/>
     <comp lib="0" loc="(150,130)" name="Pin">
       <a name="label" val="instr_control_i"/>
       <a name="owner" val="elieva"/>
@@ -17247,7 +17295,68 @@ e016 5*46c0 18*0 4019 5*46c0
     <comp lib="0" loc="(170,130)" name="Tunnel">
       <a name="label" val="instr_control_s"/>
     </comp>
-    <comp lib="0" loc="(870,180)" name="Pin">
+    <comp lib="8" loc="(503,37)" name="Text">
+      <a name="text" val="Complété"/>
+      <a name="font" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="0" loc="(410,170)" name="Constant"/>
+    <comp lib="0" loc="(410,150)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(360,120)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst_s"/>
+    </comp>
+    <comp lib="0" loc="(370,210)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="instr_control_s"/>
+    </comp>
+    <comp lib="0" loc="(410,260)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="4" loc="(440,130)" name="Shift Register">
+      <a name="length" val="3"/>
+      <a name="owner" val="bdy_tve"/>
+      <a name="date" val="22.05.22 17:32:32"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="d63a1568-1412-42af-b67e-17c9d9d26886"/>
+      <a name="integrity" val="4cda2a17382e627c8edfb264c42f3f9b0c280cb4"/>
+    </comp>
+    <comp lib="1" loc="(400,130)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="owner" val="bdy_tve"/>
+      <a name="date" val="22.05.22 17:36:43"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="0cd9a22e-9f92-4786-b691-bd293334e6e8"/>
+      <a name="integrity" val="f12181a8e0f71ccb3f2235c343f30115c1db3430"/>
+    </comp>
+    <comp lib="1" loc="(630,230)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="owner" val="bdy_tve"/>
+      <a name="date" val="22.05.22 17:35:40"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="d890abd0-52ff-4570-ab69-4c5f7bbe42b8"/>
+      <a name="integrity" val="95b47c395c47104d42e414a54c2b70d3e7f7947f"/>
+    </comp>
+    <comp lib="1" loc="(670,230)" name="NOT Gate">
+      <a name="owner" val="bdy_tve"/>
+      <a name="date" val="22.05.22 17:36:02"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="1a47e543-fd2c-40a9-91c5-0ed0cc8c533f"/>
+      <a name="integrity" val="2e81c838cbaf589eb3f3890e20e8b759c2a6edf8"/>
+    </comp>
+    <comp lib="0" loc="(420,190)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk_s"/>
+    </comp>
+    <comp lib="0" loc="(360,140)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="end_rst"/>
+    </comp>
+    <comp lib="0" loc="(570,260)" name="Tunnel">
+      <a name="label" val="end_rst"/>
+    </comp>
+    <comp lib="0" loc="(690,230)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="no_ctl_hazard_i"/>
@@ -17258,18 +17367,7 @@ e016 5*46c0 18*0 4019 5*46c0
       <a name="uuid" val="7ac3393a-a68d-4e83-94f9-4e76a4361fbd"/>
       <a name="integrity" val="70d643c2b1de4921ec25b42f76970818ec4e0fc7"/>
     </comp>
-    <comp lib="0" loc="(830,180)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="no_ctl_hazard_s"/>
-    </comp>
-    <comp lib="0" loc="(600,70)" name="Tunnel">
-      <a name="label" val="no_ctl_hazard_s"/>
-    </comp>
-    <comp lib="0" loc="(540,70)" name="Constant"/>
-    <comp lib="8" loc="(503,37)" name="Text">
-      <a name="text" val="A compléter"/>
-      <a name="font" val="SansSerif plain 12"/>
-    </comp>
+    <comp lib="0" loc="(650,140)" name="Constant"/>
     <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
       <a name="text" val="Attention, votre version de Logisim"/>
       <a name="font" val="SansSerif plain 48"/>

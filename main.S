@@ -24,3 +24,23 @@ nop
 nop
 @ fin de l’analyse
 
+
+@ Programme de test des aléa de controle
+
+mov r0, #5
+mov r1, #6
+mov r2, #7
+b test_1
+
+.org 0x40
+test_1:
+mov r0, #8
+mov r1, #9
+mov r2, r1
+b test_2:
+
+.org 0x50
+test_2:
+mov r0, #9
+mov r1, #10
+mov r2, r1
